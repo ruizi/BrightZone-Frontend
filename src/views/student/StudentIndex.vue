@@ -6,7 +6,7 @@
           <el-col :span="12" v-for="c in this.courseData" :key="c.courseId"  style="margin-bottom: 20px;cursor: pointer;" >
             <el-card class="box-card" shadow="hover" @click.native="openCourse(c.clazzId)">
               <div slot="header" class="clearfix" style="margin: -20px">
-                <img src="../../assets/img/sunsetpalmsbanner.jpg" class="image">
+                <img src="../../assets/img/test_banner.png" class="image">
               </div>
               <div>
                 <h3 style="display: flex; text-align: left;">{{ '[' + c.courseNo + '] ' + c.courseName }}</h3>

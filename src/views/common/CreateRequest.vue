@@ -7,7 +7,7 @@
     </div>
     <div class="container">
       <div class="plugins-tips">
-        Hello, Create your request message to CMS administrator
+        Welcome, enter your request message to administrator here
       </div>
 
       <el-form ref="requestForm" :model="requestForm" :rules="rules" label-width="80px">

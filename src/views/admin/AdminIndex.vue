@@ -39,7 +39,7 @@
       <el-col :span="8">
         <el-card shadow="hover" style="height:490px;">
           <div slot="header" class="clearfix">
-            <span>CMS To do</span>
+            <span>Todos</span>
             <el-button style="float: right; padding: 3px 0" type="text" @click="drawerProp.addTaskDrawer = true">add
             </el-button>
           </div>
@@ -149,12 +149,12 @@
               <el-table-column prop="date" width="180"></el-table-column>
               <el-table-column width="120">
                 <template slot-scope="scope">
-                  <el-button size="small" @click="handleRead(scope.$index)">标为已读</el-button>
+                  <el-button size="small" @click="handleRead(scope.$index)">Mark As Read</el-button>
                 </template>
               </el-table-column>
             </el-table>
             <div class="handle-row">
-              <el-button type="primary">全部标为已读</el-button>
+              <el-button type="primary">Mark All As Read</el-button>
             </div>
           </el-tab-pane>
           <el-tab-pane :label="`Read Msg(${read.length})`" name="third">
@@ -207,13 +207,11 @@
               <el-table-column prop="date" width="180"></el-table-column>
               <el-table-column width="120">
                 <template slot-scope="scope">
-                  <el-button size="small" @click="handleRead(scope.$index)">标为已读</el-button>
+                  <el-button size="small" @click="handleRead(scope.$index)">Mark As Read</el-button>
                 </template>
               </el-table-column>
             </el-table>
-            <!--          <div class="handle-row">-->
-            <!--            <el-button type="primary">全部标为已读</el-button>-->
-            <!--          </div>-->
+
           </el-tab-pane>
           <el-button style="float: right; padding: 3px 0" type="text" @click="drawerProp.addTaskDrawer = true">add
           </el-button>
@@ -438,18 +436,18 @@ export default {
       draft: [],
       unread: [{
         date: '2018-04-19 20:00:00',
-        title: '【系统通知】该系统将于今晚凌晨2点到5点进行升级维护',
+        title: 'Test Message 1',
       }, {
         date: '2018-04-19 21:00:00',
-        title: '今晚12点整发大红包，先到先得',
+        title: 'Test Message 2',
       }],
       read: [{
         date: '2018-04-19 20:00:00',
-        title: '【系统通知】该系统将于今晚凌晨2点到5点进行升级维护'
+        title: 'Test Message 3'
       }],
       recycle: [{
         date: '2018-04-19 20:00:00',
-        title: '【系统通知】该系统将于今晚凌晨2点到5点进行升级维护'
+        title: 'Test Message 4'
       }]
     };
   },

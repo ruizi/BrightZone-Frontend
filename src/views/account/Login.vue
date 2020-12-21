@@ -1,7 +1,7 @@
 <template>
   <div class="login-wrap">
     <div class="ms-login">
-      <div class="ms-title">Course Management System</div>
+      <div class="ms-title">Bright Zone</div>
       <el-form :model="loginForm" :rules="rules" ref="login" label-width="0px" class="ms-content">
         <el-form-item prop="emailOrUserId">
           <el-input v-model="loginForm.emailOrUserId" placeholder="email or userId">
@@ -21,10 +21,10 @@
         <div class="login-btn">
           <el-button type="primary" @click="login()">Login</el-button>
         </div>
-        <a class="passwordRecovery" href="http://localhost:8181/passwordRecovery">forget password?</a>
+        <a class="passwordRecovery" href="http://localhost:8181/passwordRecovery">Forget password?</a>
         <div class="register-btn">
           <el-button type="primary">
-            <router-link style="color: white" to="/register">Or Register</router-link>
+            <router-link style="color: white" to="/register">Register</router-link>
           </el-button>
         </div>
       </el-form>
