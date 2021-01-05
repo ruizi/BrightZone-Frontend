@@ -85,12 +85,7 @@ const routes = [
     },
     {
         path: '/',
-        redirect: '/welcome'
-    },
-    {
-        path: '/welcome',
-        name: 'Welcome',
-        component: () => import('@/views/Welcome')
+        redirect: '/login'
     },
     {
         path: '/mock/index',  // this page is only for development

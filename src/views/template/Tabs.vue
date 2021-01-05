@@ -17,15 +17,15 @@
                         <el-table-column prop="date" width="180"></el-table-column>
                         <el-table-column width="120">
                             <template slot-scope="scope">
-                                <el-button size="small" @click="handleRead(scope.$index)">标为已读</el-button>
+                                <el-button size="small" @click="handleRead(scope.$index)">Mark As Read</el-button>
                             </template>
                         </el-table-column>
                     </el-table>
                     <div class="handle-row">
-                        <el-button type="primary">全部标为已读</el-button>
+                        <el-button type="primary">Mark All As Read</el-button>
                     </div>
                 </el-tab-pane>
-                <el-tab-pane :label="`已读消息(${read.length})`" name="second">
+                <el-tab-pane :label="`(${read.length})`" name="second">
                     <template v-if="message === 'second'">
                         <el-table :data="read" :show-header="false" style="width: 100%">
                             <el-table-column>

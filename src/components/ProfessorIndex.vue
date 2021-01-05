@@ -4,7 +4,7 @@
       <el-col :span="10">
         <el-card shadow="hover" class="mgb20" style="height:200px;">
           <div class="user-info">
-            <img src="https://github.com/WenjiuWang/WenjiuWang.github.io/blob/master/assets/img/profile.jpg?raw=true" class="user-avator" alt />
+            <img src="@/assets/img/img.jpg" class="user-avator" alt />
             <div class="user-info-cont">
               <div>Welcome Back, {{this.userData.name}} !</div>
               <div>Professor | {{this.userData.program}}</div>

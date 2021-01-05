@@ -37,19 +37,19 @@ export default {
       draft: [],
       unread: [{
         date: '2018-04-19 20:00:00',
-        title: '【系统通知】该系统将于今晚凌晨2点到5点进行升级维护',
+        title: 'test1',
       },
         {
           date: '2018-04-19 21:00:00',
-          title: '今晚12点整发大红包，先到先得',
+          title: 'test2',
         }],
       read: [{
         date: '2018-04-19 20:00:00',
-        title: '【系统通知】该系统将于今晚凌晨2点到5点进行升级维护'
+        title: 'test3'
       }],
       recycle: [{
         date: '2018-04-19 20:00:00',
-        title: '【系统通知】该系统将于今晚凌晨2点到5点进行升级维护'
+        title: 'test4'
       }],
 
       content: '',
@@ -80,7 +80,7 @@ export default {
     },
     submit() {
       console.log(this.content);
-      this.$message.success('提交成功！');
+      this.$message.success('Success！');
     }
   },
   computed: {

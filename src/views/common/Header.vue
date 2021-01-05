@@ -5,7 +5,7 @@
       <i v-if="!collapse" class="el-icon-s-fold"></i>
       <i v-else class="el-icon-s-unfold"></i>
     </div>
-    <div class="logo">CMS-{{ accountType }}</div>
+    <div class="logo">Bright Zone - {{ accountType }}</div>
     <div class="logo" v-if="">
 
     </div>
@@ -176,7 +176,7 @@ export default {
 
 .header .logo {
   float: left;
-  width: 250px;
+  width: 500 px;
   line-height: 70px;
 }
 

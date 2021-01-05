@@ -10,7 +10,7 @@
       <div class="bullshit">
         <div class="bullshit__oops">OOPS!</div>
         <div class="bullshit__info">All rights reserved
-          <a style="color:#20a0ff" href="http://localhost:8181" target="_blank">Course Management System</a>
+          <a style="color:#20a0ff" href="http://localhost:8181" target="_blank">Bright Zone</a>
         </div>
         <div class="bullshit__headline">{{ message }}</div>
         <div class="bullshit__info">Please check that the URL you entered is correct, or click the button below to return to the homepage.</div>
