@@ -24,6 +24,6 @@
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-* This repo only contains the frontend source code. [Click here](https://github.com/WenjiuWang/BrightZone-Backend) to access the backend repo.
+* This repo only contains the frontend source code. [Click](https://github.com/ruizi/BrightZone-Backend) to access the backend repo.
 
 
